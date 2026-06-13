@@ -111,6 +111,7 @@ section {
 
 .gradient-text {
   background: linear-gradient(to right, var(--accent-1), var(--accent-2));
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
